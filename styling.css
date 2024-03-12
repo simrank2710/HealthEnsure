@@ -1,0 +1,192 @@
+*{
+    font-family: 'Times New Roman', 'Sans-serif', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+/*Styling Container*/
+
+.container{
+    height: auto;
+    width: auto;
+    background-color: #C9E9EA;
+}
+
+/*Styling Brand Name*/
+
+.brand{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px;
+    text-decoration: bold;
+    min-width: 200px;
+}
+
+#name{
+    color: #A40851;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#subname{
+    color: #A40851;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+/*Styling Navbar*/
+
+.nav-bar{
+    width: 99%;
+    margin-left: 7.2px;
+    margin-top: 7px;
+    background-color: #FACCB5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    padding: 3px;
+    margin: 3px;
+    transition: all 0.2s ease;
+}
+
+.nav-bar a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #511E04;
+}
+
+/*small screens: vertical menu*/
+@media screen and (max-width: 720px){
+    .nav-bar{
+        flex-direction: column;
+        align-content: center;
+    }
+    
+}
+
+/*Styling Box*/
+
+.box{
+    width: 99%;
+    margin: 8px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*small screens: vertical menu*/
+@media screen and (max-width: 720px){
+    .box{
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .disease{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/*Styling Diseases*/
+
+.disease{
+    height: 300px;
+    width: 22%;
+    border: 2px solid black;
+    background-color: white;
+    margin: 8px;
+}
+
+#heading{
+    text-align: center;
+    height: 50px;
+    background-color: #470116;
+    color: white;
+    padding-top: 15px;
+    font-size: 28px;
+}
+
+.disease a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.disease a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*Styling individual boxes*/
+
+#covid img{
+    height: 235px;
+    width: 331px;
+}
+
+#braintumor img{
+    height: 235px;
+    width: 331px;
+}
+
+#breastcancer img{
+    height: 235px;
+    width: 331px;
+}
+
+#alzheimer img{
+    height: 235px;
+    width: 331px;
+}
+
+#diabetes img{
+    height: 235px;
+    width: 331px;
+}
+
+#pneumonia img{
+    height: 235px;
+    width: 331px;
+}
+
+#heartdisease img{
+    height: 235px;
+    width: 331px;
+}
+
+/*Styling header*/
+
+.welcome{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Styling footer*/
+
+.footer{
+    width: 100%;
+    height: 18px;
+    font-size: 1.1rem;
+    margin-top: 7px;
+    padding: 7px;
+    background-color: #FACCB5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

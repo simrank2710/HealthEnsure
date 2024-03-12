@@ -1,0 +1,208 @@
+*{
+    font-family: 'Times New Roman', 'Sans-serif', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+/*Styling Container*/
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #C9E9EA;
+}
+
+/*Styling Brand Name*/
+
+.brand{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px;
+    text-decoration: bold;
+    min-width: 200px;
+}
+
+#name{
+    color: #A40851;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#subname{
+    color: #A40851;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+/*Styling Navbar*/
+
+.nav-bar{
+    width: 99%;
+    margin-left: 7.2px;
+    margin-top: 7px;
+    background-color: #FACCB5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    padding: 3px;
+    margin: 3px;
+    transition: all 0.2s ease;
+}
+
+.nav-bar a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #511E04;
+}
+
+.nav-bar a.active{
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #511E04;
+}
+
+/*small screens: vertical menu*/
+@media screen and (max-width: 720px){
+    .nav-bar{
+        flex-direction: column;
+        align-content: center;
+    }
+    
+}
+
+/*Styling covid box*/
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout{
+    height: auto;
+    width: 700px;
+    background-color: #FACCB5;
+    margin-top: 50px;
+    border: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    color: black;
+    height: 50px;
+    background-color: #E88A8A;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 7px 0px;
+}
+
+/*Styling form*/
+
+.row1, .row3, .row4, .row5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstname input, .lastname input, .email input{
+    width: 275px;
+}
+
+.row4 input, .row5 input{
+    width: 120px;
+}
+
+#inputs{
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    height: 20px;
+    font-size: 1.1rem;
+}
+
+#labels{
+    font-size: 1.2rem;
+    margin: 4px;
+}
+
+.phone_no input{
+    width: 600px;
+}
+
+#options{
+    font-size: 1.1rem;
+    width: 300px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.file input{
+    background-color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    height: 20px;
+    font-size: 1.1rem;
+    width: 600px;
+    border: 2px solid black;
+}
+
+/*Styling submit button*/
+
+.button button{
+    font-size: 1.1rem;
+    color: #E88A8A;
+    text-decoration: bold;
+    background-color: #FACCB5;
+    width: 625px;
+    border: 2px solid #E88A8A;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
+.button button:hover{
+    background-color: #E88A8A;
+    color: black;
+}
+
+/*Styling footer*/
+
+.footer{
+    width: 100%;
+    height: 18px;
+    font-size: 1.1rem;
+    margin-top: 55px;
+    padding: 7px;
+    background-color: #FACCB5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
